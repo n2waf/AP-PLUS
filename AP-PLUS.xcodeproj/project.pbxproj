@@ -8,22 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		AD5BF953223BFF9B00358D58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5BF952223BFF9B00358D58 /* AppDelegate.swift */; };
-		AD5BF955223BFF9B00358D58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5BF954223BFF9B00358D58 /* ViewController.swift */; };
+		AD5BF955223BFF9B00358D58 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5BF954223BFF9B00358D58 /* Home.swift */; };
 		AD5BF958223BFF9B00358D58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD5BF956223BFF9B00358D58 /* Main.storyboard */; };
 		AD5BF95B223BFF9B00358D58 /* AP_PLUS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD5BF959223BFF9B00358D58 /* AP_PLUS.xcdatamodeld */; };
 		AD5BF95D223BFF9F00358D58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD5BF95C223BFF9F00358D58 /* Assets.xcassets */; };
 		AD5BF960223BFF9F00358D58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD5BF95E223BFF9F00358D58 /* LaunchScreen.storyboard */; };
+		AD5BF969223C103D00358D58 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5BF968223C103D00358D58 /* Settings.swift */; };
+		AD5BF96C223C106400358D58 /* Apps.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5BF96B223C106400358D58 /* Apps.swift */; };
+		AD5BF96E223C129E00358D58 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5BF96D223C129E00358D58 /* Constant.swift */; };
+		D41D740069F58405AD98A495 /* Pods_AP_PLUS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3945C8CED8400F2F184B89D /* Pods_AP_PLUS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2828CEF641F9DA4AA44CCB66 /* Pods-AP-PLUS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AP-PLUS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AP-PLUS/Pods-AP-PLUS.debug.xcconfig"; sourceTree = "<group>"; };
 		AD5BF94F223BFF9B00358D58 /* AP-PLUS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AP-PLUS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5BF952223BFF9B00358D58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AD5BF954223BFF9B00358D58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD5BF954223BFF9B00358D58 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		AD5BF957223BFF9B00358D58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD5BF95A223BFF9B00358D58 /* AP_PLUS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AP_PLUS.xcdatamodel; sourceTree = "<group>"; };
 		AD5BF95C223BFF9F00358D58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD5BF95F223BFF9F00358D58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD5BF961223BFF9F00358D58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD5BF968223C103D00358D58 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		AD5BF96B223C106400358D58 /* Apps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps.swift; sourceTree = "<group>"; };
+		AD5BF96D223C129E00358D58 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		B3945C8CED8400F2F184B89D /* Pods_AP_PLUS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AP_PLUS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63FC15640B0F2CE76BDE4B4 /* Pods-AP-PLUS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AP-PLUS.release.xcconfig"; path = "Pods/Target Support Files/Pods-AP-PLUS/Pods-AP-PLUS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D41D740069F58405AD98A495 /* Pods_AP_PLUS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		90837D05CBD88E8D3CBCB86F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2828CEF641F9DA4AA44CCB66 /* Pods-AP-PLUS.debug.xcconfig */,
+				B63FC15640B0F2CE76BDE4B4 /* Pods-AP-PLUS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AD5BF946223BFF9A00358D58 = {
 			isa = PBXGroup;
 			children = (
 				AD5BF951223BFF9B00358D58 /* AP-PLUS */,
 				AD5BF950223BFF9B00358D58 /* Products */,
+				90837D05CBD88E8D3CBCB86F /* Pods */,
+				C3FBCDE8B6E7715E38EEEA82 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +78,9 @@
 		AD5BF951223BFF9B00358D58 /* AP-PLUS */ = {
 			isa = PBXGroup;
 			children = (
+				AD5BF96A223C105400358D58 /* Models */,
+				AD5BF967223C0FDD00358D58 /* ViewController */,
 				AD5BF952223BFF9B00358D58 /* AppDelegate.swift */,
-				AD5BF954223BFF9B00358D58 /* ViewController.swift */,
 				AD5BF956223BFF9B00358D58 /* Main.storyboard */,
 				AD5BF95C223BFF9F00358D58 /* Assets.xcassets */,
 				AD5BF95E223BFF9F00358D58 /* LaunchScreen.storyboard */,
@@ -67,6 +90,32 @@
 			path = "AP-PLUS";
 			sourceTree = "<group>";
 		};
+		AD5BF967223C0FDD00358D58 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AD5BF954223BFF9B00358D58 /* Home.swift */,
+				AD5BF968223C103D00358D58 /* Settings.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		AD5BF96A223C105400358D58 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AD5BF96B223C106400358D58 /* Apps.swift */,
+				AD5BF96D223C129E00358D58 /* Constant.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C3FBCDE8B6E7715E38EEEA82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3945C8CED8400F2F184B89D /* Pods_AP_PLUS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +123,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD5BF964223BFF9F00358D58 /* Build configuration list for PBXNativeTarget "AP-PLUS" */;
 			buildPhases = (
+				269A7182620837009CA2F5FA /* [CP] Check Pods Manifest.lock */,
 				AD5BF94B223BFF9A00358D58 /* Sources */,
 				AD5BF94C223BFF9A00358D58 /* Frameworks */,
 				AD5BF94D223BFF9A00358D58 /* Resources */,
+				2202278AD0F022FADCCC2EBF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +183,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2202278AD0F022FADCCC2EBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AP-PLUS/Pods-AP-PLUS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AP-PLUS/Pods-AP-PLUS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		269A7182620837009CA2F5FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AP-PLUS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AD5BF94B223BFF9A00358D58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AD5BF95B223BFF9B00358D58 /* AP_PLUS.xcdatamodeld in Sources */,
-				AD5BF955223BFF9B00358D58 /* ViewController.swift in Sources */,
+				AD5BF955223BFF9B00358D58 /* Home.swift in Sources */,
+				AD5BF96C223C106400358D58 /* Apps.swift in Sources */,
+				AD5BF969223C103D00358D58 /* Settings.swift in Sources */,
 				AD5BF953223BFF9B00358D58 /* AppDelegate.swift in Sources */,
+				AD5BF96E223C129E00358D58 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +390,7 @@
 		};
 		AD5BF965223BFF9F00358D58 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2828CEF641F9DA4AA44CCB66 /* Pods-AP-PLUS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -301,6 +409,7 @@
 		};
 		AD5BF966223BFF9F00358D58 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B63FC15640B0F2CE76BDE4B4 /* Pods-AP-PLUS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
