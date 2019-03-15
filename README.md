@@ -17,8 +17,8 @@
 
 # Librarys
 
-1-ObjectMapper
-2-Alamofire
+-ObjectMapper
+-Alamofire
 
 
 # Question & Suggestion
