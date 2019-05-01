@@ -16,6 +16,7 @@
 		AD5BF969223C103D00358D58 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5BF968223C103D00358D58 /* Settings.swift */; };
 		AD5BF96C223C106400358D58 /* Apps.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5BF96B223C106400358D58 /* Apps.swift */; };
 		AD5BF96E223C129E00358D58 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5BF96D223C129E00358D58 /* Constant.swift */; };
+		ADD030FC227917EC00C92FB4 /* AppsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD030FB227917EC00C92FB4 /* AppsCell.swift */; };
 		D41D740069F58405AD98A495 /* Pods_AP_PLUS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3945C8CED8400F2F184B89D /* Pods_AP_PLUS.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		AD5BF968223C103D00358D58 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		AD5BF96B223C106400358D58 /* Apps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps.swift; sourceTree = "<group>"; };
 		AD5BF96D223C129E00358D58 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		ADD030FB227917EC00C92FB4 /* AppsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsCell.swift; sourceTree = "<group>"; };
 		B3945C8CED8400F2F184B89D /* Pods_AP_PLUS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AP_PLUS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B63FC15640B0F2CE76BDE4B4 /* Pods-AP-PLUS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AP-PLUS.release.xcconfig"; path = "Pods/Target Support Files/Pods-AP-PLUS/Pods-AP-PLUS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +80,7 @@
 		AD5BF951223BFF9B00358D58 /* AP-PLUS */ = {
 			isa = PBXGroup;
 			children = (
+				ADD030FA227917C100C92FB4 /* Cells */,
 				AD5BF96A223C105400358D58 /* Models */,
 				AD5BF967223C0FDD00358D58 /* ViewController */,
 				AD5BF952223BFF9B00358D58 /* AppDelegate.swift */,
@@ -106,6 +109,14 @@
 				AD5BF96D223C129E00358D58 /* Constant.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		ADD030FA227917C100C92FB4 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				ADD030FB227917EC00C92FB4 /* AppsCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		C3FBCDE8B6E7715E38EEEA82 /* Frameworks */ = {
@@ -242,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD5BF95B223BFF9B00358D58 /* AP_PLUS.xcdatamodeld in Sources */,
+				ADD030FC227917EC00C92FB4 /* AppsCell.swift in Sources */,
 				AD5BF955223BFF9B00358D58 /* Home.swift in Sources */,
 				AD5BF96C223C106400358D58 /* Apps.swift in Sources */,
 				AD5BF969223C103D00358D58 /* Settings.swift in Sources */,

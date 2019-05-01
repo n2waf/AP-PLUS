@@ -8,6 +8,7 @@
 import Foundation
 import ObjectMapper
 
+
 class AppModel : NSObject , Mappable
 
 {
@@ -42,3 +43,5 @@ class AppsObject: NSObject, Mappable {
 
     }
 }
+
+
