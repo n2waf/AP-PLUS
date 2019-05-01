@@ -7,7 +7,7 @@
 - فقط عدل Models 
 - الرابط المستخدم داخل ملف Constant.swift
 - المستهدف من هذا التطبيق ( متاجر البلس ) لكن يمكن استخدامه على موقع آخر .
-# soon
+# Soon
 
 - واجهة التطبيق
 - سيتيم توزيع البيانات داخل tableview وتبيين كيف تم التوزيع
@@ -17,8 +17,8 @@
 
 # Librarys
 
--ObjectMapper
--Alamofire
+- ObjectMapper
+- Alamofire
 
 
 # Question & Suggestion
